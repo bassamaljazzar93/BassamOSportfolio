@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Bassam Aljazzar | Mechatronics Engineer</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/bassamaljazzar93/BassamSAASportfolio/refs/heads/main/images/MY_LOGO.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Ubuntu', sans-serif;
+        overflow: hidden;
+        user-select: none;
+        background-color: black;
+      }
+      .terminal-font {
+        font-family: 'Ubuntu Mono', monospace;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(233, 84, 32, 0.5);
+      }
+      .glass-morphism {
+        background: rgba(20, 20, 20, 0.75);
+        backdrop-filter: blur(16px) saturate(180%);
+      }
+      .ubuntu-orange {
+        background-color: #E95420;
+      }
+      @keyframes fade-in {
+        from { opacity: 0; transform: scale(0.98); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.4s ease-out forwards;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+        "recharts": "https://esm.sh/recharts@^3.7.0"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.76/build/spline-viewer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Bassam Aljazzar - Mechatronics OS Portfolio",
+  "description": "A high-performance, interactive Ubuntu-inspired portfolio for Mechatronics Engineer Bassam Aljazzar, featuring a window manager, functional terminal, 3D labs, and robotics project showcases.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
